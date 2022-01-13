@@ -1,0 +1,9 @@
+<apex:page controller="ControllerClass">    
+
+    <!-- Static Reference -->
+    <p>{!$Label.label_1}</p>
+
+    <!-- Dynamic Reference -->
+    <p>{!$Label[API_NAME_FOR_LABEL_2]}</p>
+
+</apex:page>
